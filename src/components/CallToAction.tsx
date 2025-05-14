@@ -21,9 +21,9 @@ const CallToAction = () => {
               <span>Get Started</span>
             </Button>
             
-            <Button variant="outline" className="text-white border-white hover:bg-white/10 py-6 px-6 text-lg flex items-center gap-2">
-              <span className="text-white font-medium">Learn More</span>
-              <ArrowRight size={20} />
+            <Button variant="outline" className="border-white hover:bg-white/10 py-6 px-6 text-lg flex items-center gap-2">
+              <span className="text-white">Learn More</span>
+              <ArrowRight size={20} className="text-white" />
             </Button>
           </div>
         </div>
