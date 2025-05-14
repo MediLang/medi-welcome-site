@@ -8,6 +8,11 @@ const Navbar = () => {
     <header className="border-b border-gray-100 py-4 backdrop-blur-md bg-white/80 fixed top-0 left-0 right-0 z-50">
       <div className="container flex items-center justify-between">
         <div className="flex items-center gap-2">
+          <img 
+            src="/lovable-uploads/6c4096a6-c8d2-4f53-adf6-b0a0b910076b.png" 
+            alt="Medi Logo" 
+            className="h-7 w-auto" 
+          />
           <span className="text-xl font-bold text-medi">Medi</span>
         </div>
         

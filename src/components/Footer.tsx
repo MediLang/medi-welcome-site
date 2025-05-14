@@ -1,4 +1,3 @@
-
 import React from 'react';
 import { Github, BookOpen } from 'lucide-react';
 
@@ -9,6 +8,11 @@ const Footer = () => {
         <div className="grid md:grid-cols-4 gap-8">
           <div className="md:col-span-1">
             <div className="flex items-center gap-2 mb-4">
+              <img 
+                src="/lovable-uploads/6c4096a6-c8d2-4f53-adf6-b0a0b910076b.png" 
+                alt="Medi Logo" 
+                className="h-7 w-auto" 
+              />
               <span className="text-xl font-bold text-medi">Medi</span>
             </div>
             <p className="text-gray-600 mb-4">
