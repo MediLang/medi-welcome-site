@@ -1,7 +1,6 @@
-
 import React from 'react';
 import { Button } from '@/components/ui/button';
-import { Github, Star, BookOpen, MessageSquare } from 'lucide-react';
+import { Github, Star, BookOpen, MessageSquare, Users } from 'lucide-react';
 
 const Community = () => {
   return (
