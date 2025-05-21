@@ -1,5 +1,6 @@
+
 import React from 'react';
-import { Github, BookOpen } from 'lucide-react';
+import { Github, BookOpen, Discord } from 'lucide-react';
 
 const Footer = () => {
   return (
@@ -26,6 +27,14 @@ const Footer = () => {
                 className="text-gray-600 hover:text-medi transition-colors"
               >
                 <Github size={20} />
+              </a>
+              <a 
+                href="https://discord.gg/JxE6dD285R" 
+                target="_blank" 
+                rel="noopener noreferrer"
+                className="text-gray-600 hover:text-medi transition-colors"
+              >
+                <Discord size={20} />
               </a>
               <a 
                 href="https://x.com/MediLangHQ" 
@@ -94,6 +103,14 @@ const Footer = () => {
                   className="text-gray-600 hover:text-medi transition-colors"
                 >
                   GitHub
+                </a>
+              </li>
+              <li>
+                <a 
+                  href="https://discord.gg/JxE6dD285R" 
+                  className="text-gray-600 hover:text-medi transition-colors"
+                >
+                  Discord
                 </a>
               </li>
               <li>

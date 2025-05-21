@@ -1,6 +1,7 @@
+
 import React from 'react';
 import { Button } from '@/components/ui/button';
-import { Github, Star, BookOpen, MessageSquare, Users } from 'lucide-react';
+import { Github, Star, BookOpen, MessageSquare, Users, Discord } from 'lucide-react';
 
 const Community = () => {
   return (
@@ -13,7 +14,7 @@ const Community = () => {
           </p>
         </div>
         
-        <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8 max-w-5xl mx-auto">
+        <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8 max-w-5xl mx-auto">
           <a 
             href="https://github.com/MediLang/medi" 
             target="_blank" 
@@ -23,11 +24,28 @@ const Community = () => {
             <Github size={40} className="text-gray-800 mb-4" />
             <h3 className="text-xl font-semibold mb-2">GitHub</h3>
             <p className="text-gray-600 mb-4">
-              Explore the source code, contribute to the project, and help shape the future of healthcare programming.
+              Explore the source code, contribute to the project, and help shape the future.
             </p>
             <div className="mt-auto pt-4 flex items-center gap-2">
               <Star size={16} className="text-yellow-500" />
               <span className="text-gray-700 font-medium">Star on GitHub</span>
+            </div>
+          </a>
+          
+          <a 
+            href="https://discord.gg/JxE6dD285R" 
+            target="_blank" 
+            rel="noopener noreferrer"
+            className="p-6 rounded-lg border border-gray-100 hover:border-medi hover:shadow-md transition-all flex flex-col items-center text-center"
+          >
+            <Discord size={40} className="text-gray-800 mb-4" />
+            <h3 className="text-xl font-semibold mb-2">Discord</h3>
+            <p className="text-gray-600 mb-4">
+              Join our Discord community to chat, ask questions, and collaborate.
+            </p>
+            <div className="mt-auto pt-4 flex items-center gap-2">
+              <MessageSquare size={16} className="text-indigo-500" />
+              <span className="text-gray-700 font-medium">Join Discord</span>
             </div>
           </a>
           

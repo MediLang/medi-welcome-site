@@ -1,7 +1,7 @@
 
 import React from 'react';
 import { Button } from '@/components/ui/button';
-import { Code, BookOpen, Github, ExternalLink } from 'lucide-react';
+import { Code, BookOpen, Github, ExternalLink, Discord } from 'lucide-react';
 
 const Navbar = () => {
   return (
@@ -24,6 +24,10 @@ const Navbar = () => {
           <a href="https://github.com/MediLang/medi" className="text-gray-700 hover:text-medi transition-colors flex items-center gap-1">
             <Github size={16} />
             <span>GitHub</span>
+          </a>
+          <a href="https://discord.gg/JxE6dD285R" className="text-gray-700 hover:text-medi transition-colors flex items-center gap-1">
+            <Discord size={16} />
+            <span>Discord</span>
           </a>
           <a href="https://x.com/MediLangHQ" className="text-gray-700 hover:text-medi transition-colors flex items-center gap-1">
             <ExternalLink size={16} />
