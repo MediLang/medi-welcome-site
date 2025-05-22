@@ -59,7 +59,7 @@ const Navbar = () => {
         <div className="hidden md:block">
           <Button className="bg-medi hover:bg-medi-dark flex items-center gap-2">
             <Code size={16} />
-            <span>Get Started</span>
+            <span>Join Development</span>
           </Button>
         </div>
         

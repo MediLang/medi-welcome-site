@@ -19,7 +19,7 @@ const Hero = () => {
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <Button className="bg-medi hover:bg-medi-dark py-6 px-6 text-lg flex items-center gap-2">
               <Code size={20} />
-              <span>Get Started</span>
+              <span>Join Development</span>
             </Button>
             <Button variant="outline" className="py-6 px-6 text-lg flex items-center gap-2 border-gray-300">
               <BookOpen size={20} />
@@ -28,6 +28,10 @@ const Hero = () => {
           </div>
           
           <div className="mt-12 bg-gray-800 text-white p-6 rounded-lg mx-auto max-w-2xl overflow-hidden text-left shadow-lg">
+            <div className="flex items-center justify-between mb-2">
+              <p className="text-sm text-gray-400">Vision: Our planned syntax</p>
+              <span className="px-2 py-1 bg-medi/20 text-medi-light text-xs rounded">In Development</span>
+            </div>
             <pre className="font-mono text-sm">
               <code>
                 <span className="text-green-400">// A simple Medi program for health data analysis</span>{'\n'}

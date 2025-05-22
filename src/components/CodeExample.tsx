@@ -7,10 +7,15 @@ const CodeExample = () => {
     <section className="py-20 bg-gray-50">
       <div className="container mx-auto px-4">
         <div className="text-center mb-12">
-          <h2 className="text-3xl md:text-4xl font-bold mb-4">See Medi in Action</h2>
+          <h2 className="text-3xl md:text-4xl font-bold mb-4">Our Vision for Medi</h2>
           <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-            Discover how Medi makes healthcare programming more intuitive, safe, and efficient.
+            Discover how we envision Medi making healthcare programming more intuitive, safe, and efficient.
           </p>
+          <div className="mt-3">
+            <span className="inline-block px-3 py-1 bg-medi/10 text-medi text-sm rounded-full">
+              Currently in Development
+            </span>
+          </div>
         </div>
         
         <div className="max-w-4xl mx-auto">
@@ -23,6 +28,7 @@ const CodeExample = () => {
             
             <TabsContent value="data-privacy" className="rounded-lg overflow-hidden shadow-lg">
               <div className="bg-gray-800 text-white p-6 font-mono text-sm">
+                <div className="mb-3 text-gray-400 text-xs">Planned feature: Built-in PHI protection</div>
                 <pre>
                   <code>
                     <span className="text-green-400">// Medi makes PHI handling secure by default</span>{'\n'}
@@ -52,7 +58,7 @@ const CodeExample = () => {
               <div className="bg-white p-6 border-t border-gray-100">
                 <h3 className="font-semibold text-lg mb-2">Protected Health Information Safeguards</h3>
                 <p className="text-gray-700">
-                  Medi's type system enforces HIPAA compliance by tracking PHI through your program, preventing 
+                  Medi's type system will enforce HIPAA compliance by tracking PHI through your program, preventing 
                   accidental exposure and ensuring proper authorization for sensitive data access.
                 </p>
               </div>
@@ -60,6 +66,7 @@ const CodeExample = () => {
             
             <TabsContent value="clinical-analysis" className="rounded-lg overflow-hidden shadow-lg">
               <div className="bg-gray-800 text-white p-6 font-mono text-sm">
+                <div className="mb-3 text-gray-400 text-xs">Planned feature: Medical units and clinical algorithms</div>
                 <pre>
                   <code>
                     <span className="text-green-400">// Clinical risk scoring with built-in medical units</span>{'\n'}
@@ -85,7 +92,7 @@ const CodeExample = () => {
               <div className="bg-white p-6 border-t border-gray-100">
                 <h3 className="font-semibold text-lg mb-2">Medical Units & Clinical Algorithms</h3>
                 <p className="text-gray-700">
-                  Medi provides first-class support for medical units and validated clinical scoring systems, ensuring
+                  Medi will provide first-class support for medical units and validated clinical scoring systems, ensuring
                   accurate calculations and preventing common errors in medical software.
                 </p>
               </div>
@@ -93,6 +100,7 @@ const CodeExample = () => {
             
             <TabsContent value="ehr-integration" className="rounded-lg overflow-hidden shadow-lg">
               <div className="bg-gray-800 text-white p-6 font-mono text-sm">
+                <div className="mb-3 text-gray-400 text-xs">Planned feature: FHIR integration</div>
                 <pre>
                   <code>
                     <span className="text-green-400">// Seamless EHR integration with FHIR</span>{'\n'}
@@ -126,8 +134,8 @@ const CodeExample = () => {
               <div className="bg-white p-6 border-t border-gray-100">
                 <h3 className="font-semibold text-lg mb-2">Healthcare Standards Integration</h3>
                 <p className="text-gray-700">
-                  Medi provides first-class support for healthcare interoperability standards like FHIR, HL7, and DICOM,
-                  with type-safe interfaces that make integration with existing systems straightforward and reliable.
+                  Medi will provide first-class support for healthcare interoperability standards like FHIR, HL7, and DICOM,
+                  with type-safe interfaces that will make integration with existing systems straightforward and reliable.
                 </p>
               </div>
             </TabsContent>
