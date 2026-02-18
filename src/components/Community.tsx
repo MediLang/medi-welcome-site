@@ -25,9 +25,9 @@ const Community = () => {
     <section className="py-20 bg-white">
       <div className="container mx-auto px-4">
         <div className="text-center mb-16">
-          <h2 className="text-3xl md:text-4xl font-bold mb-4">Join the Medi Community</h2>
+          <h2 className="text-3xl md:text-4xl font-bold mb-4">Join the Tolvex Community</h2>
           <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-            Medi is built by healthcare professionals and developers working together to create better healthcare software.
+            Tolvex is built by healthcare professionals and developers working together to create better healthcare software.
           </p>
         </div>
         
@@ -36,7 +36,7 @@ const Community = () => {
             href="https://github.com/MediLang/medi" 
             target="_blank" 
             rel="noopener noreferrer"
-            className="p-6 rounded-lg border border-gray-100 hover:border-medi hover:shadow-md transition-all flex flex-col items-center text-center"
+            className="p-6 rounded-lg border border-gray-100 hover:border-tolvex hover:shadow-md transition-all flex flex-col items-center text-center"
           >
             <Github size={40} className="text-gray-800 mb-4" />
             <h3 className="text-xl font-semibold mb-2">GitHub</h3>
@@ -53,7 +53,7 @@ const Community = () => {
             href="https://discord.gg/JxE6dD285R" 
             target="_blank" 
             rel="noopener noreferrer"
-            className="p-6 rounded-lg border border-gray-100 hover:border-medi hover:shadow-md transition-all flex flex-col items-center text-center"
+            className="p-6 rounded-lg border border-gray-100 hover:border-tolvex hover:shadow-md transition-all flex flex-col items-center text-center"
           >
             <DiscordIcon className="text-gray-800 mb-4" />
             <h3 className="text-xl font-semibold mb-2">Discord</h3>
@@ -70,7 +70,7 @@ const Community = () => {
             href="https://x.com/MediLangHQ" 
             target="_blank" 
             rel="noopener noreferrer"
-            className="p-6 rounded-lg border border-gray-100 hover:border-medi hover:shadow-md transition-all flex flex-col items-center text-center"
+            className="p-6 rounded-lg border border-gray-100 hover:border-tolvex hover:shadow-md transition-all flex flex-col items-center text-center"
           >
             <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="text-gray-800 mb-4"><path d="M22 4s-.7 2.1-2 3.4c1.6 10-9.4 17.3-18 11.6 2.2.1 4.4-.6 6-2C3 15.5.5 9.6 3 5c2.2 2.6 5.6 4.1 9 4-.9-4.2 4-6.6 7-3.8 1.1 0 3-1.2 3-1.2z"></path></svg>
             <h3 className="text-xl font-semibold mb-2">Twitter</h3>
@@ -87,12 +87,12 @@ const Community = () => {
             href="https://www.linkedin.com/groups/14694015/" 
             target="_blank" 
             rel="noopener noreferrer"
-            className="p-6 rounded-lg border border-gray-100 hover:border-medi hover:shadow-md transition-all flex flex-col items-center text-center"
+            className="p-6 rounded-lg border border-gray-100 hover:border-tolvex hover:shadow-md transition-all flex flex-col items-center text-center"
           >
             <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="text-gray-800 mb-4"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"></path><rect width="4" height="12" x="2" y="9"></rect><circle cx="4" cy="4" r="2"></circle></svg>
             <h3 className="text-xl font-semibold mb-2">LinkedIn</h3>
             <p className="text-gray-600 mb-4">
-              Connect with healthcare developers and professionals in the Medi LinkedIn group.
+              Connect with healthcare developers and professionals in the Tolvex LinkedIn group.
             </p>
             <div className="mt-auto pt-4 flex items-center gap-2">
               <Users size={16} className="text-blue-700" />
@@ -103,7 +103,7 @@ const Community = () => {
         
         <div className="mt-16 text-center">
           <a href="https://medilang.github.io/medi/" target="_blank" rel="noopener noreferrer">
-            <Button className="bg-white border border-gray-300 hover:border-medi text-gray-800 hover:text-medi transition-colors py-6 px-8 text-lg flex items-center gap-2">
+            <Button className="bg-white border border-gray-300 hover:border-tolvex text-gray-800 hover:text-tolvex transition-colors py-6 px-8 text-lg flex items-center gap-2">
               <BookOpen size={20} />
               <span>Read the Documentation</span>
             </Button>

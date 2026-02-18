@@ -23,7 +23,7 @@ export default {
 				sans: ['Inter', 'system-ui', 'sans-serif'],
 			},
 			colors: {
-				medi: {
+			tolvex: {
 					DEFAULT: '#3ebbb3',
 					light: '#5fd0c9',
 					dark: '#2e9d96',
