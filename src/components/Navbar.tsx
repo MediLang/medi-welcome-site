@@ -27,37 +27,37 @@ const Navbar = () => {
         <div className="flex items-center gap-2">
           <img 
             src="/lovable-uploads/6c4096a6-c8d2-4f53-adf6-b0a0b910076b.png" 
-            alt="Medi Logo" 
+            alt="Tolvex Logo" 
             className="h-7 w-auto" 
           />
-          <span className="text-xl font-bold text-medi">Medi</span>
+          <span className="text-xl font-bold text-tolvex">Tolvex</span>
         </div>
         
         <nav className="hidden md:flex items-center space-x-6">
-          <a href="https://medilang.github.io/medi/" className="text-gray-700 hover:text-medi transition-colors flex items-center gap-1">
+          <a href="https://medilang.github.io/medi/" className="text-gray-700 hover:text-tolvex transition-colors flex items-center gap-1">
             <BookOpen size={16} />
             <span>Docs</span>
           </a>
-          <a href="https://github.com/MediLang/medi" className="text-gray-700 hover:text-medi transition-colors flex items-center gap-1">
+          <a href="https://github.com/MediLang/medi" className="text-gray-700 hover:text-tolvex transition-colors flex items-center gap-1">
             <Github size={16} />
             <span>GitHub</span>
           </a>
-          <a href="https://discord.gg/JxE6dD285R" className="text-gray-700 hover:text-medi transition-colors flex items-center gap-1">
+          <a href="https://discord.gg/JxE6dD285R" className="text-gray-700 hover:text-tolvex transition-colors flex items-center gap-1">
             <DiscordIcon />
             <span>Discord</span>
           </a>
-          <a href="https://x.com/MediLangHQ" className="text-gray-700 hover:text-medi transition-colors flex items-center gap-1">
+          <a href="https://x.com/MediLangHQ" className="text-gray-700 hover:text-tolvex transition-colors flex items-center gap-1">
             <ExternalLink size={16} />
             <span>Twitter</span>
           </a>
-          <a href="https://www.linkedin.com/groups/14694015/" className="text-gray-700 hover:text-medi transition-colors flex items-center gap-1">
+          <a href="https://www.linkedin.com/groups/14694015/" className="text-gray-700 hover:text-tolvex transition-colors flex items-center gap-1">
             <ExternalLink size={16} />
             <span>LinkedIn</span>
           </a>
         </nav>
         
         <div className="hidden md:block">
-          <Button className="bg-medi hover:bg-medi-dark flex items-center gap-2">
+          <Button className="bg-tolvex hover:bg-tolvex-dark flex items-center gap-2">
             <Code size={16} />
             <span>Join Development</span>
           </Button>

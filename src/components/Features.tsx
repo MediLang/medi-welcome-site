@@ -5,22 +5,22 @@ import { Shield, Zap, Database, Heart } from 'lucide-react';
 const Features = () => {
   const features = [
     {
-      icon: <Shield className="h-12 w-12 text-medi" />,
+      icon: <Shield className="h-12 w-12 text-tolvex" />,
       title: "Security by Design",
       description: "Built with healthcare compliance at its core. HIPAA-ready with privacy features baked right into the language."
     },
     {
-      icon: <Zap className="h-12 w-12 text-medi" />,
+      icon: <Zap className="h-12 w-12 text-tolvex" />,
       title: "Blazing Fast Performance",
       description: "Optimized for medical data processing with performance that doesn't compromise on reliability or safety."
     },
     {
-      icon: <Database className="h-12 w-12 text-medi" />,
+      icon: <Database className="h-12 w-12 text-tolvex" />,
       title: "Healthcare Data Integration",
       description: "Native connectors for healthcare systems and standards like HL7, FHIR, and DICOM with type-safe interfaces."
     },
     {
-      icon: <Heart className="h-12 w-12 text-medi" />,
+      icon: <Heart className="h-12 w-12 text-tolvex" />,
       title: "Domain-Specific Syntax",
       description: "Language constructs specifically designed for medical concepts, making code more intuitive for healthcare professionals."
     }
@@ -32,7 +32,7 @@ const Features = () => {
         <div className="text-center mb-16">
           <h2 className="text-3xl md:text-4xl font-bold mb-4">Purpose-Built for Healthcare</h2>
           <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-            Medi combines the power of modern programming with specialized features for healthcare applications.
+            Tolvex combines the power of modern programming with specialized features for healthcare applications.
           </p>
         </div>
         
